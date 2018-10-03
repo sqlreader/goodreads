@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+  <Request>
+    <authentication>true</authentication>
+      <key><![CDATA[SECRET_KEY]]></key>
+    <method><![CDATA[series_show]]></method>
+  </Request>
+  <series>
+<id>202297</id>
+<title>
+<![CDATA[
+    The Interdependency
+]]>
+</title>
+<description>
+<![CDATA[
+]]>
+</description>
+<note>
+<![CDATA[
+    This was announced by Scalzi as the title for the series on his site http://whatever.scalzi.com/2017/03/21/the-collapsing-empire-is-here/
+]]>
+</note>
+<series_works_count>3</series_works_count>
+<primary_work_count>3</primary_work_count>
+<numbered>true</numbered>
+<series_works>
+<series_work>
+<id>1037555</id>
+<user_position>1</user_position>
+<work>
+<id>50498420</id>
+<uri>kca://work/amzn1.gr.work.v1.EL_K1Wnlcphft1OuDV7A7A</uri>
+<best_book>
+<id>30078567</id>
+<title>The Collapsing Empire (The Interdependency #1)</title>
+<author>
+<id>4763</id>
+<name>John Scalzi</name>
+</author>
+<image_url><![CDATA[https://images.gr-assets.com/books/1464097677m/30078567.jpg]]></image_url>
+</best_book>
+<books_count>22</books_count>
+<original_publication_day>21</original_publication_day>
+<original_publication_month>3</original_publication_month>
+<original_publication_year>2017</original_publication_year>
+<original_title>The Collapsing Empire</original_title>
+<ratings_count>20630</ratings_count>
+<ratings_sum>84361</ratings_sum>
+<reviews_count>56110</reviews_count>
+<text_reviews_count>2691</text_reviews_count>
+<average_rating></average_rating>
+</work>
+
+</series_work>
+<series_work>
+<id>1158797</id>
+<user_position>2</user_position>
+<work>
+<id>56211540</id>
+<uri>kca://work/amzn1.gr.work.v1.vIBOex-gd5Mg8N2F0_4lYw</uri>
+<best_book>
+<id>34942741</id>
+<title>The Consuming Fire (The Interdependency, #2)</title>
+<author>
+<id>4763</id>
+<name>John Scalzi</name>
+</author>
+<image_url><![CDATA[https://images.gr-assets.com/books/1518468399m/34942741.jpg]]></image_url>
+</best_book>
+<books_count>6</books_count>
+<original_publication_day>16</original_publication_day>
+<original_publication_month>10</original_publication_month>
+<original_publication_year>2018</original_publication_year>
+<original_title></original_title>
+<ratings_count>65</ratings_count>
+<ratings_sum>266</ratings_sum>
+<reviews_count>6803</reviews_count>
+<text_reviews_count>12</text_reviews_count>
+<average_rating></average_rating>
+</work>
+
+</series_work>
+<series_work>
+<id>1180989</id>
+<user_position>3</user_position>
+<work>
+<id>59976877</id>
+<uri>kca://work/amzn1.gr.work.v1.lWHFMdCTags209-OIai5iQ</uri>
+<best_book>
+<id>38322550</id>
+<title>The Last Emperox (The Interdependency, #3)</title>
+<author>
+<id>4763</id>
+<name>John Scalzi</name>
+</author>
+<image_url><![CDATA[https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png]]></image_url>
+</best_book>
+<books_count>1</books_count>
+<original_publication_day></original_publication_day>
+<original_publication_month></original_publication_month>
+<original_publication_year>2019</original_publication_year>
+<original_title></original_title>
+<ratings_count>4</ratings_count>
+<ratings_sum>15</ratings_sum>
+<reviews_count>968</reviews_count>
+<text_reviews_count>1</text_reviews_count>
+<average_rating></average_rating>
+</work>
+
+</series_work>
+
+</series_works>
+</series>
+
+
+</GoodreadsResponse>
