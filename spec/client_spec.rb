@@ -518,4 +518,30 @@ describe Goodreads::Client do
       expect(group_list.group[2].users_count).to eq("530")
     end
   end
+
+  describe "#series" do
+    before { stub_with_key_get("/series/show", {id: "202297"}, "series.xml") }
+
+    it "returns a list of books in the specified series" do
+      series = client.series("202297")
+
+      expect(series).to be_a(Hashie::Mash)
+      expect(series.series_works_count).to eq("3")
+      expect(series.primary_work_count).to eq("3")
+    end
+  end
+
+  describe "#series_list" do
+    before { stub_with_key_get("/series/list", {id: "4763"}, "series_list.xml") }
+    
+    it "returns a list of series by the specified author" do
+      series_list = client.series_list("4763")
+
+      expect(series_list).to be_a(Hashie::Mash)
+      expect(series_list.series_work.count).to eq(105)
+      expect(series_list.series_work[0].id).to eq("447569")
+      expect(series_list.series_work[0].user_position).to eq("1")
+      expect(series_list.series_work[0].series.series_works_count).to eq("15")
+    end
+  end
 end
